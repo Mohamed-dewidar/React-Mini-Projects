@@ -1,0 +1,24 @@
+
+.main-details {
+    background-color: wheat;
+    border-radius: 2rem;
+    width: 70%;
+}
+
+.details{
+    background-color: var(--bg-navy);
+    color: wheat;
+    width: 40rem;
+
+    border-radius: 1em;
+    box-shadow: 0 0 1em 0.2em var(--bg-navy);
+}
+
+.details > h3 {
+    font-weight: bold;
+}
+
+
+
+
+

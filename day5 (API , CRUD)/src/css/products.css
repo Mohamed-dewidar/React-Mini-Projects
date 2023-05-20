@@ -1,0 +1,62 @@
+
+
+.product-container {
+    background-color: wheat;
+    width: 80%;
+    margin-inline:auto ;
+    border-radius: 2rem;
+    padding: 3em;
+    
+    
+}
+
+
+
+
+.coffee-card{
+    background-color: var(--bg-navy);
+    color: wheat;
+    width: 18rem;
+    height: 20rem;
+    padding: 1em;
+    border-radius: 2em;
+    box-shadow:  0 0 1em 0.4em var(--bg-navy);
+    transition: all 1s;
+}
+
+.coffee-card:hover{
+    background-color: var(--success);
+    transform: scale(1.05);
+}
+
+.coffee-card > h5 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* .coffee-card > * {
+    border: 2px solid green
+} */
+
+.coffee-card > p::after{
+    content: " ...";
+    color: wheat
+}
+
+.icons i {
+    color: wheat !important
+}
+.bi-trash3-fill:hover{
+    cursor: pointer;
+    color: var(--danger) !important
+    
+}
+
+.bi-eye:hover {
+    color: var(--warning) !important
+}
+
+.bi-pen-fill:hover {
+    color: whitesmoke !important
+}
+
