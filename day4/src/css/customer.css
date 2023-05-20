@@ -1,0 +1,25 @@
+
+
+.customer{
+    border-radius: 2em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+    
+}
+
+.customer-data{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 4em 10em !important;
+ 
+}
+
+.table {
+    width: 70%;
+    margin: 1em auto;
+}

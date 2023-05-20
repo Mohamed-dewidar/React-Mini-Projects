@@ -1,0 +1,40 @@
+.coffee-main-container {
+  border-radius: 1em;
+}
+.coffee-card {
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.coffee-list {
+  width: 70%;
+  margin-inline: auto;
+
+  border-radius: 2em;
+  height: 400px;
+  overflow-y: auto;
+}
+.coffee-list::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 2em;
+}
+
+.coffee-list::-webkit-scrollbar-track {
+  background-color: hsl(220 100% 40% / 0.3);
+  border-radius: 2em;
+}
+
+.coffee-list::-webkit-scrollbar-thumb {
+  background-color: hsl(220 100% 40% / 0.4);
+  border-radius: 2em;
+  border: 1px solid hsl(220 100% 40% / 0.4);
+}
+
+mark {
+  color: inherit;
+  padding: 2px;
+
+  border-radius: 0.2em;
+  background-color: rgba(255, 255, 2, 0.685);
+  font-weight: inherit;
+}
